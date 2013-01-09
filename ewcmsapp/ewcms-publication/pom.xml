@@ -7,8 +7,8 @@
     <artifactId>ewcmsapp</artifactId>
     <version>3.0-SNAPSHOT</version>
   </parent>
-  <artifactId>ewcms-content</artifactId>
-  <name>ewcms-content</name>
+  <artifactId>ewcms-publication</artifactId>
+  <name>ewcms-publication</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

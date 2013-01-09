@@ -9,5 +9,6 @@
     <module>ewcms-common</module>
     <module>ewcms-core</module>
     <module>ewcms-content</module>
+    <module>ewcms-publication</module>
   </modules>
 </project>
