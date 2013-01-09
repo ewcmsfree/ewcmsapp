@@ -8,5 +8,6 @@
   <modules>
     <module>ewcms-common</module>
     <module>ewcms-core</module>
+    <module>ewcms-content</module>
   </modules>
 </project>
