@@ -7,5 +7,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>ewcms-common</module>
+    <module>ewcms-core</module>
   </modules>
 </project>
