@@ -3,7 +3,6 @@
  * EWCMS PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  * http://www.ewcms.com
  */
-
 package com.ewcms.core.domain;
 
 import java.util.Date;
@@ -11,7 +10,8 @@ import java.util.Date;
 /**
  * 站点频道依赖站点，站点内容依赖于频道，可关联形成频道树结构。
  * 
- * @author 周冬初 wuzhijun
+ * @author 周冬初 
+ *         wuzhijun
  *         <a href="hhywangwei@gmail.com">王伟</a>
  */
 public class Channel {
@@ -37,14 +37,14 @@ public class Channel {
 	private Integer order = 0;
 	
 	/**
-	 * 是否发布频道
+	 * 是否发布频道,{@code true}为发布频道。
 	 */
 	private Boolean release = Boolean.FALSE;
 	
 	/**
-	 * 是否共享频道
+	 * 频道所属共享信息编号
 	 */
-	private Boolean share = Boolean.FALSE;
+	private Long shareId;
 	
 	/**
 	 * 父频道编号，@{code parentId == null}为根频道
@@ -52,12 +52,12 @@ public class Channel {
 	private Long parentId;
 	
 	/**
-     * 所属机构信息编号
+     * 频道所属机构信息编号
      */
 	private Long organId;
 	
 	/**
-	 * 所属站点编号
+	 * 频道所属站点编号
 	 */
 	private Long siteId;
 	
@@ -132,12 +132,12 @@ public class Channel {
 		this.order = order;
 	}
 
-	public Boolean getShare() {
-		return share;
+	public Long getShareId() {
+		return shareId;
 	}
 
-	public void setShare(Boolean share) {
-		this.share = share;
+	public void setShareId(Long shareId) {
+		this.shareId = shareId;
 	}
 
 	public Long getParentId() {
@@ -211,7 +211,7 @@ public class Channel {
 		builder.append("Channel [id=").append(id).append(", name=")
 				.append(name).append(", url=").append(url).append(", order=")
 				.append(order).append(", release=").append(release)
-				.append(", share=").append(share).append(", parentId=")
+				.append(", shareId=").append(shareId).append(", parentId=")
 				.append(parentId).append(", organId=").append(organId)
 				.append(", siteId=").append(siteId).append(", describe=")
 				.append(describe).append(", createTime=").append(createTime)
