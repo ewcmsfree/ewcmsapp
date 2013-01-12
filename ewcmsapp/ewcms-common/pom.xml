@@ -16,6 +16,7 @@
 	<properties>
 		<jackson.version>2.1.2</jackson.version>
 		<commons-lang3-version>3.1</commons-lang3-version>
+		<mybatis-version>3.1.1</mybatis-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -37,6 +38,11 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-jdk14</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>${mybatis-version}</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
