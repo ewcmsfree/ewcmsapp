@@ -14,7 +14,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * 单元测试{@link EmptyUtil}
+ * {@link EmptyUtil}单元测试
  * 
  * @author <a href="hhywangwei@gmail.com">wangwei</a>
  */

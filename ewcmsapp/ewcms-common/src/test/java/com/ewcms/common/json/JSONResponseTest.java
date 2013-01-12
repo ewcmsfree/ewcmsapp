@@ -11,7 +11,7 @@ import org.junit.Test;
 import com.ewcms.common.json.JSONResponse;
 
 /**
- * 单元测试{@link JSONResponse}
+ * {@link JSONResponse}单元测试
  * 
  * @author <a href="hhywangwei@gmail.com">wangwei</a>
  */
